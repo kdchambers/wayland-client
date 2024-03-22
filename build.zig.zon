@@ -1,0 +1,11 @@
+.{
+    .name = "wayland_client",
+    .version = "0.1.0",
+    .paths = .{""},
+    .dependencies = .{
+        .zig_wayland = .{
+            .url = "https://github.com/kdchambers/zig-wayland/archive/4408e7d0e128fb5da53417a70b833c05ce0b872f.tar.gz",
+            .hash = "1220da97d5c2cf879dc036a5ffa815610705b5507b79d197628a9bf22a62b599cd04",
+        },
+    },
+}
